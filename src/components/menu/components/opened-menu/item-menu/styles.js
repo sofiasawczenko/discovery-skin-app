@@ -1,6 +1,7 @@
-import styled from 'styled-components'
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
-export const ItemMenuContainer = styled.a`
+export const ItemMenuContainer = styled(Link)`
   display: flex;
   align-items: center;
 
@@ -9,8 +10,13 @@ export const ItemMenuContainer = styled.a`
 
   gap: 1rem;
 
-  &:hover{
-    color: #FF7A00;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    color: #ff7a00;
+    transform: scale(
+      1.1
+    );
   }
 
   span {
@@ -24,4 +30,4 @@ export const ItemMenuContainer = styled.a`
   p {
     font-weight: 600;
   }
-`
+`;

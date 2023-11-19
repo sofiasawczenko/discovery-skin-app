@@ -12,15 +12,18 @@ export function Menu() {
   };
 
   return (
-    <Sidebar
-      sidebar={<OpenedMenu />}
-      open={sidebarOpen}
-      onSetOpen={(open) => setSidebarOpen(open)}
-    >
-      <NavBar>
-        <List size={32} onClick={() => onSetSidebarOpen(!sidebarOpen)} />
-        <Logo src={DiscoverySkinNameLogo} alt="discovery skin logo name" />
-      </NavBar>
-    </Sidebar>
+    <div>
+      <Sidebar
+        sidebar={<OpenedMenu />}
+        open={sidebarOpen}
+        onSetOpen={(open) => setSidebarOpen(open)}
+        styles={{ sidebar: { background: '#f5f6fa' } }}
+      >
+        <NavBar>
+          <List size={32} onClick={() => onSetSidebarOpen(!sidebarOpen)} />
+          <Logo src={DiscoverySkinNameLogo} alt="discovery skin logo name" />
+        </NavBar>
+      </Sidebar>
+    </div>
   );
 }

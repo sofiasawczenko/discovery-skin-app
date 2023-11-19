@@ -13,6 +13,7 @@ export function OpenedMenu() {
     {
       icon: <House color="#FF7A00" size={32} />,
       itemName: "Home",
+      path: "/"
     },
     {
       icon: <Phone color="#FF7A00" size={32} />,
@@ -47,7 +48,7 @@ export function OpenedMenu() {
         <div>
           {menuItens.map((item, key) => {
             return (
-              <ItemMenu key={key} icon={item.icon} itemName={item.itemName} />
+              <ItemMenu key={key} icon={item.icon} itemName={item.itemName} path={item.menu}/>
             );
           })}
         </div>
