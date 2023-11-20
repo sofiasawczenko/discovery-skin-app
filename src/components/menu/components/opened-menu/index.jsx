@@ -48,7 +48,7 @@ export function OpenedMenu() {
         <div>
           {menuItens.map((item, key) => {
             return (
-              <ItemMenu key={key} icon={item.icon} itemName={item.itemName} path={item.menu}/>
+              <ItemMenu key={key} icon={item.icon} itemName={item.itemName} path={item.path}/>
             );
           })}
         </div>
