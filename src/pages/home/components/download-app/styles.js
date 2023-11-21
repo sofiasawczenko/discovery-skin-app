@@ -1,23 +1,24 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
-export const HomeContainer = styled.main`
-  display: flex;
-  flex-direction: column;
-
-  gap: 5rem;
+const floatAnimation = keyframes`
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 `;
 
-export const ApresentationContainer = styled.div`
+export const DownloadAppContainer = styled.div`
   display: flex;
   justify-content: center;
-  gap: 10rem;
+  align-items: center;
 
   padding: 0 4rem;
 
-  width: 100%;
-
+  gap: 10rem;
+  
   @media only screen and (max-width: 1430px) {
-    align-items: center;
     gap: 5rem;
     padding: 5rem;
   }
@@ -30,54 +31,59 @@ export const ApresentationContainer = styled.div`
   }
 `;
 
-export const MainScreenPhoneImg = styled.img`
-  width: 20rem;
+export const DownloadAppImg = styled.img`
+  width: 25rem;
+  animation: ${floatAnimation} 3s ease-in-out infinite;;
 
   @media only screen and (max-width: 1430px) {
-    width: 15rem;
+    width: 20rem;
   }
 
   @media only screen and (max-width: 767px) {
-    width: 10rem;
+    width: 15rem;
   }
-`;
+`
 
-export const ApresentationTitleContainer = styled.div`
+export const DownloadAppTitleContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin-top: 5rem;
+  gap: 1rem;
 
   h1 {
-    font-size: 6rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  span{
     color: #ff7a00;
   }
 
   p {
     font-size: 1.2rem;
-    font-weight: bold;
+  }
+
+  img {
+    margin-top: 2rem;
+    align-self: center;
+    width: 10rem;
   }
 
   @media only screen and (max-width: 1430px) {
-    margin-top: 0;
 
-    h1 {
-      font-size: 3rem;
-    }
   }
 
   @media only screen and (max-width: 767px) {
-    margin-top: 2rem;
-    flex-direction: column;
-
     h1 {
-      font-size: 3rem;
       text-align: center;
     }
 
     p {
       text-align: center;
     }
-  }
-`;
 
+    img {
+      width: 6rem;
+    }
+  }
+`

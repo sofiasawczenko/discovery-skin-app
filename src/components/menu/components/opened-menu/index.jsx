@@ -1,19 +1,14 @@
 import { Article, House, Phone } from "phosphor-react";
 import DiscoverySkinLogoName from "../../../../assets/logo/discovery-skin-name-logo.svg";
 import { ItemMenu } from "./item-menu";
-import {
-  ArticleContainer,
-  LeftMenu,
-  MenuContainer,
-  SearchInput,
-} from "./styles";
+import { ArticleContainer, LeftMenu, MenuContainer } from "./styles";
 
 export function OpenedMenu() {
   const menuItens = [
     {
       icon: <House color="#FF7A00" size={32} />,
       itemName: "Home",
-      path: "/"
+      path: "/",
     },
     {
       icon: <Phone color="#FF7A00" size={32} />,
@@ -40,15 +35,18 @@ export function OpenedMenu() {
     <LeftMenu>
       <img src={DiscoverySkinLogoName} alt="discovery skin logo name" />
 
-      <SearchInput type="text" placeholder="Pequisar" />
-
       <MenuContainer>
         <p>Menu</p>
 
         <div>
           {menuItens.map((item, key) => {
             return (
-              <ItemMenu key={key} icon={item.icon} itemName={item.itemName} path={item.path}/>
+              <ItemMenu
+                key={key}
+                icon={item.icon}
+                itemName={item.itemName}
+                path={item.path}
+              />
             );
           })}
         </div>

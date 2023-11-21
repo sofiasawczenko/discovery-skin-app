@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const ArticleCardContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -9,7 +8,9 @@ export const ArticleCardContainer = styled.div`
 
   gap: 1rem;
 
-  background-color: #F5F6FA;
+  padding-bottom: 0.5rem;
+
+  background-color: #f5f6fa;
 
   h4 {
     padding: 0 1rem;
@@ -31,4 +32,4 @@ export const ArticleCardContainer = styled.div`
   @media only screen and (max-width: 767px) {
     width: 18rem;
   }
-`
+`;
