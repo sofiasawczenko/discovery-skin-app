@@ -3,26 +3,50 @@ import { ArticleCard } from "../../../../components/article-card";
 import { ArticlesCardContainer } from "./styles";
 
 export function Articles() {
+  const articles = [
+    {
+      title: "Prevenção e tratamento de doenças não transmissíveis",
+      description:
+        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
+      img: VitiligoArticleImage,
+      author: "Dra Sarah",
+    },
+    {
+      title: "Redução da mortalidade infantil",
+      description:
+        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
+      img: VitiligoArticleImage,
+      author: "Dra Sarah",
+    },
+    {
+      title: "Combate a doenças transmissíveis",
+      description:
+        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
+      img: VitiligoArticleImage,
+      author: "Dra Sarah",
+    },
+    {
+      title: "Melhoria Geral da saúde",
+      description:
+        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
+      img: VitiligoArticleImage,
+      author: "Dra Sarah",
+    },
+  ];
+
   return (
     <ArticlesCardContainer>
-      <ArticleCard
-        title="Vitiligo: Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal"
-        author="Dra Sarah"
-        description="Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer"
-        articleImg={VitiligoArticleImage}
-      />
-      <ArticleCard
-        title="Vitiligo: Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal"
-        author="Dra Sarah"
-        description="Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer"
-        articleImg={VitiligoArticleImage}
-      />
-      <ArticleCard
-        title="Vitiligo: Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal"
-        author="Dra Sarah"
-        description="Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer Lorem ipsum dolor sit amet consectetuer"
-        articleImg={VitiligoArticleImage}
-      />
+      {articles.map((article, key) => {
+        return (
+          <ArticleCard
+            key={key}
+            title={article.title}
+            description={article.description}
+            author={article.author}
+            articleImg={article.img}
+          />
+        );
+      })}
     </ArticlesCardContainer>
   );
 }

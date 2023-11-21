@@ -15,15 +15,6 @@ export const LeftMenu = styled.aside`
   border-bottom-right-radius: 10px;
 `;
 
-export const SearchInput = styled.input`
-  border: 0;
-  border-radius: 99px;
-  text-indent: 1rem;
-  padding: 0.5rem 0;
-
-  width: 18rem;
-`;
-
 export const MenuContainer = styled.div`
   display: flex;
   flex-direction: column;
