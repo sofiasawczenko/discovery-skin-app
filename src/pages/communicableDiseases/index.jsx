@@ -14,7 +14,7 @@ export function CommunicableDiseases() {
       <CenteredImage src={fungi} alt="fungi" title="fungi" />
 
       <ReadingTime>
-        <p>Tempo de Leitura: 6 minutos</p>
+        <p>Tempo de Leitura: 10 minutos</p>
       </ReadingTime>
 
       <BodyText>

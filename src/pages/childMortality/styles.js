@@ -38,94 +38,131 @@ export const ReadingTime = styled.main`
 `
 
 export const baby1 = styled.img`
-  width: 30rem;
-  height: 15rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  @media only screen and (max-width: 1430px) {
-    width: 25rem;
-    margin-left: 15rem;
+    @media only screen and (max-width: 600px) {
+    width: 20rem;
+    margin-left: 10rem;
   }
 
-  @media only screen and (max-width: 767px) {
-    width: 15rem;
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    margin: 10rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
   }
 `;
 
 export const BodyText = styled.main`
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
+    margin-left: 3rem;
+    text-align: justify;
     font-size: 17px;
-    margin-top: 0rem;
-    margin: 10rem;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 60rem;
     line-height: 2;
     text-align: justify;
-
-@media only screen and (max-width: 1430px) {
-    width: 30rem;
-    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-left:8rem;
   }
   
 `
 
 export const SintomaTopicos = styled.main`
-    font-size: 17px;
-    margin: 1rem;
-    line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
     text-align: justify;
-    line-height: 2;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-top:30px;
+  }
 
-    @media only screen and (max-width: 1430px) {
-        width: 26rem;
-        margin-left: 4rem;
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 60rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-left:3rem;
   }
 `
 
 export const ABCDTopicos = styled.main`
-    font-size: 17px;
-    margin: 1rem;
-    line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    width: 15rem;
+    margin-left: 3rem;
     text-align: justify;
-    line-height: 2;
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
 
-    @media only screen and (max-width: 1430px) {
-    width: 26rem;
-    margin-left: 4rem;
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 55rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-left:3rem;
   }
 `
 
 export const ABCDText = styled.main`
-    font-size: 17px;
-    margin: 1rem;
-    line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
     text-align: justify;
-    line-height: 2;
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
 
-    @media only screen and (max-width: 1430px) {
-    width: 28rem;
-    margin-left: 1rem;
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 60rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 1rem;
   }
 `
 
 export const CenteredImage = styled.img`
-    display: block;
-    margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+    width: 20rem;
+    margin-left: 2rem;
+  }
 
-    @media only screen and (max-width: 1430px) {
-    width: 30rem;
-    margin-left: 3rem;
-
-    }
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-left: 14rem;
+    width: 50rem;
+    text-align: justify;
+  }
 `
 
 export const CenteredImage2 = styled.img`
-    display: block;
-    margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+    width: 18rem;
+  }
 
-    @media only screen and (max-width: 1430px) {
-    width: 28rem;
-    margin-left: 3rem;
-
-    }
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    line-height: 2;
+    text-align: justify;
+    margin-left: 4rem;
+  }
 `

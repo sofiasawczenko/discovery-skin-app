@@ -40,38 +40,63 @@ export const CenteredImage = styled.img`
     display: block;
     margin: 0 auto;
 
-    @media only screen and (max-width: 1430px) {
-    width: 30rem;
-    margin-left: 3rem;
+    @media only screen and (max-width: 600px) {
+    width: 20rem;
+    margin-left: 2rem;
+  }
 
-    }
-`
-
-export const BodyText = styled.div`
+@media only screen and (min-width: 600px) {
     font-size: 17px;
-    margin-top: 0rem;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
     margin: 10rem;
     line-height: 2;
     text-align: justify;
     margin-bottom: 2rem;
+  }
+`
 
-@media only screen and (max-width: 1430px) {
-    width: 30rem;
+export const BodyText = styled.div`
+
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
     margin-left: 3rem;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    margin: 10rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
   }
   
 `
 
 export const TiposText = styled.div`
+
+    @media only screen and (max-width: 600px) {
+    width: 18rem;
+    margin-left: 5rem;
+    text-align: justify;
     font-size: 17px;
-    margin-left: 12rem;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    margin: 10rem;
     line-height: 2;
     text-align: justify;
-    margin-bottom: 1rem;
-
-@media only screen and (max-width: 1430px) {
-    width: 30rem;
-    margin-left: 5rem;
+    margin-bottom: 2rem;
   }
   
 `
@@ -80,11 +105,21 @@ export const CenteredImage2 = styled.img`
     display: block;
     margin: 0 auto;
 
-    @media only screen and (max-width: 1430px) {
-    width: 30rem;
-    margin-left: 3rem;
+    @media only screen and (max-width: 600px) {
+    width: 20rem;
+    margin-left: 2rem;
+  }
 
-    }
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    margin: 10rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
 `
 
 export const AlertasText = styled.div`
@@ -95,9 +130,22 @@ export const AlertasText = styled.div`
     text-align: justify;
     margin-bottom: 2rem;
 
-@media only screen and (max-width: 1430px) {
-    width: 30rem;
+    @media only screen and (max-width: 600px) {
+    width: 18rem;
     margin-left: 3rem;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 50rem;
+    margin: 10rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
   }
   
 `
