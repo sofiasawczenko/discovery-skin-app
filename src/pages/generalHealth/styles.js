@@ -41,7 +41,7 @@ export const CenteredImage = styled.img`
     margin: 0 auto;
 
     @media only screen and (max-width: 1430px) {
-    width: 30rem;
+    width: 20rem;
     margin-left: 3rem;
 
     }
@@ -71,7 +71,7 @@ export const BodyTextRecomendacao = styled.div`
     margin-bottom: 2rem;
 
 @media only screen and (max-width: 1430px) {
-    width: 30rem;
+    width: 20rem;
     margin-left: 3rem;
   }
   
@@ -82,7 +82,7 @@ export const CenteredImage2 = styled.img`
     margin: 0 auto;
 
     @media only screen and (max-width: 1430px) {
-    width: 30rem;
+    width: 20rem;
     margin-left: 3rem;
 
     }
@@ -97,7 +97,7 @@ export const AlertasText = styled.div`
     margin-bottom: 2rem;
 
 @media only screen and (max-width: 1430px) {
-    width: 30rem;
+    width: 20rem;
     margin-left: 3rem;
   }
   
@@ -112,7 +112,7 @@ export const BodyTextQuantidade = styled.div`
     margin-bottom: 2rem;
 
 @media only screen and (max-width: 1430px) {
-    width: 30rem;
+    width: 20rem;
     margin-left: 3rem;
   }
   

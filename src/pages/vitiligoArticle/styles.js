@@ -129,8 +129,7 @@ export const DefinicaoVitiligo2 = styled.div`
   margin-top: 4rem;
 
   @media only screen and (max-width: 1430px) {
-      margin-left: -0.5rem;
-      width: 20rem;
+      width: 17rem;
       font-size: 1.05rem;
       display: flex;
       align-items: center;
@@ -144,7 +143,7 @@ export const TopicosVitiligo = styled.div`
 
   @media only screen and (max-width: 1430px) {
       margin-left: 1.5rem;
-      width: 17rem;
+      width: 15rem;
       font-size: 1.05rem;
       display: flex;
   }
@@ -154,8 +153,7 @@ export const PorcentagemComVitiligo = styled.div`
   margin-top: 2rem;
 
   @media only screen and (max-width: 1430px) {
-      margin-left: -0.5rem;
-      width: 20rem;
+      width: 17rem;
       font-size: 1.05rem;
       display: flex;
       align-items: center;
@@ -169,7 +167,7 @@ export const TopicosTratamento = styled.div`
 
   @media only screen and (max-width: 1430px) {
       margin-left: 1.5rem;
-      width: 17rem;
+      width: 15rem;
       font-size: 1.05rem;
       display: flex;
       margin-bottom: 1rem;
@@ -230,7 +228,7 @@ export const TextGeral = styled.div`
   margin-top: 0rem;
 
   @media only screen and (max-width: 1430px) {
-      width: 18rem;
+      width: 16rem;
       font-size: 1.05rem;
       display: flex;
       align-items: center;
