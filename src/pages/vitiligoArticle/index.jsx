@@ -17,8 +17,6 @@ TextGeral,
 TratamentoText,
 } from "./styles";
 import VitiligoImage from '/src/assets/article/vitiligo-image.svg';
-import MelanocitosImage from "../../assets/article/melanocitos.svg";
- {/* import CotoveloImage from "../../assets/article/cotovelo.svg"; */}
 
 export function VitiligoArticle() {
   return (
@@ -71,8 +69,6 @@ export function VitiligoArticle() {
           Entretanto, a relação entre essas doenças e o vitiligo é incerta.
         </p></TextGeral>
 
-        <img src={MelanocitosImage} alt="Melanocito" title="Melanocito"/>
-
         <TextGeral><p>
         Ocasionalmente, o vitiligo ocorre depois de lesão física na pele, por exemplo, como resposta a uma queimadura por produto químico ou queimadura solar. 
         As pessoas também podem observar que o vitiligo é desencadeado por um episódio de estresse emocional.
@@ -107,8 +103,6 @@ export function VitiligoArticle() {
             <TopicoBranqueamento><h3>Branqueamento</h3></TopicoBranqueamento>
             Algumas pessoas que têm extensões muito grandes de vitiligo preferem, às vezes, descolorir a pigmentação da pele que não foi afetada para conseguir uma tonalidade uniforme. O branqueamento é feito com repetidas aplicações de um creme de hidroquinona forte sobre a pele durante várias semanas a um ano ou mais. O creme pode causar muita irritação. Os efeitos do branqueamento (como a perda permanente do pigmento) são irreversíveis.
             </p>
-
-             {/*<img src={CotoveloImage} alt="Cotovelo" title="Cotovelo com Vitiligo"/> */}
       </TextContent></>
   );
 }

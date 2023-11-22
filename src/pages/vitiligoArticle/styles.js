@@ -38,34 +38,6 @@ export const ReadingTime = styled.main`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 `
 
-export const VitiligoImage = styled.img`
-  width: 40rem;
-
-  @media only screen and (max-width: 1430px) {
-    width: 25rem;
-  }
-
-  @media only screen and (max-width: 767px) {
-    width: 15rem;
-  }
-`;
-
-export const MelanocitosSkinImage = styled.img`
-  width: 40rem;
-`
-
-export const Melanocitos = styled.img`
-  width: 40rem;
-
-  @media only screen and (max-width: 1430px) {
-    width: 25rem;
-  }
-
-  @media only screen and (max-width: 767px) {
-    width: 15rem;
-  }
-`;
-
 export const MacroImage = styled.div`
   display: flex;
   justify-content: center;
@@ -84,10 +56,13 @@ export const MacroImage = styled.div`
 
   @media only screen and (max-width: 1430px) {
     gap: 10rem;
-
-    h1 {
-      font-size: 2rem;
-    }
+    width: 28rem;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 0rem;
   }
 
   @media only screen and (max-width: 767px) {
@@ -139,51 +114,128 @@ export const DefinicaoVitiligo = styled.div`
     margin-bottom: 15px;
     display: table-cell;
     width: 50%; 
+
+    @media only screen and (max-width: 1430px) {
+      margin-left: -0.5rem;
+      width: 20rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `;
 
 export const DefinicaoVitiligo2 = styled.div`
   margin-top: 4rem;
+
+  @media only screen and (max-width: 1430px) {
+      margin-left: -0.5rem;
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TopicosVitiligo = styled.div`
   margin-top: 4rem;
   margin-left: 2rem;
+
+  @media only screen and (max-width: 1430px) {
+      margin-left: 1.5rem;
+      width: 17rem;
+      font-size: 1.05rem;
+      display: flex;
+  }
 `
 
 export const PorcentagemComVitiligo = styled.div`
   margin-top: 2rem;
+
+  @media only screen and (max-width: 1430px) {
+      margin-left: -0.5rem;
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TopicosTratamento = styled.div`
   margin-top: 4rem;
   margin-left: 2rem;
+
+  @media only screen and (max-width: 1430px) {
+      margin-left: 1.5rem;
+      width: 17rem;
+      font-size: 1.05rem;
+      display: flex;
+      margin-bottom: 1rem;
+  }
 `
 
 export const TerapiaTopica = styled.div`
   margin-top: 1.5rem;
+
+  @media only screen and (max-width: 1430px) {
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TopicoFototerapia = styled.div`
   margin-top: 1.5rem;
+
+  @media only screen and (max-width: 1430px) {
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TopicoCirurgia = styled.div`
   margin-top: 1.5rem;
+
+  @media only screen and (max-width: 1430px) {
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TopicoBranqueamento = styled.div`
   margin-top: 1.5rem;
+
+  @media only screen and (max-width: 1430px) {
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TextGeral = styled.div`
   font-size: 17px;
   margin: 1rem;
   margin-top: 0rem;
-`
 
-export const MelanocitosImage = styled.div`
-  align-items: center;
-  text-align: center;
+  @media only screen and (max-width: 1430px) {
+      width: 18rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
 
 export const TratamentoText = styled.div`
@@ -191,4 +243,12 @@ export const TratamentoText = styled.div`
   margin-top: 4rem;
   line-height: 1.5;
   text-align: justify;
+
+  @media only screen and (max-width: 1430px) {
+      width: 20rem;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
 `
