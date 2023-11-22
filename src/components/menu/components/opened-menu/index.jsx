@@ -13,21 +13,26 @@ export function OpenedMenu() {
     {
       icon: <Phone color="#FF7A00" size={32} />,
       itemName: "Fale conosco",
+      path: "/contactUs",
     },
   ];
 
   const articleItens = [
     {
       itemName: "Vitiligo",
+      path: "/vitiligoArticle",
     },
     {
       itemName: "Drink para melhora de pele",
+      path: "/generalHealth",
     },
     {
       itemName: "Melanoma em crianças",
+      path: "/childMortality",
     },
     {
       itemName: "Fungos na pele",
+      path: "/communicableDiseases",
     },
   ];
 
@@ -62,6 +67,7 @@ export function OpenedMenu() {
                 key={key}
                 icon={<Article color="#FF7A00" size={32} />}
                 itemName={item.itemName}
+                path={item.path}
               />
             );
           })}
