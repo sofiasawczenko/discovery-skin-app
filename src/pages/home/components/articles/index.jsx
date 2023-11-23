@@ -1,4 +1,7 @@
-import VitiligoArticleImage from "../../../../assets/article/vitiligo-card.svg";
+import CotoveloImage from "../../../../assets/article/cotovelo.svg";
+import ChildImage from "../../../../assets/child/baby2.svg";
+import FungiImage from "../../../../assets/fungi/fungi.svg";
+import WaterImage from "../../../../assets/water/water1.svg";
 import { ArticleCard } from "../../../../components/article-card";
 import { ArticlesCardContainer } from "./styles";
 
@@ -8,28 +11,27 @@ export function Articles() {
       title: "Prevenção e tratamento de doenças não transmissíveis",
       description:
         "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
-      img: VitiligoArticleImage,
+      img: CotoveloImage,
       author: "Dra Sarah",
     },
     {
       title: "Redução da mortalidade infantil",
       description:
-        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
-      img: VitiligoArticleImage,
+        "A Realidade Alarmante - Melanoma em crianças e seus riscos mortais",
+      img: ChildImage,
       author: "Dra Sarah",
     },
     {
       title: "Combate a doenças transmissíveis",
       description:
-        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
-      img: VitiligoArticleImage,
+        "Além da Superfície: Entenda e previna fungos na pele transmissíveis",
+      img: FungiImage,
       author: "Dra Sarah",
     },
     {
       title: "Melhoria Geral da saúde",
-      description:
-        "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
-      img: VitiligoArticleImage,
+      description: "Como melhorar sua pele somente com um drink",
+      img: WaterImage,
       author: "Dra Sarah",
     },
   ];
