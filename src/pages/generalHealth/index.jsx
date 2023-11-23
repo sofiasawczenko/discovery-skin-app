@@ -4,10 +4,9 @@ ReadingTime,
 SubTitle,
 CenteredImage,
 BodyTextRecomendacao,
-CenteredImage2,
 BodyTextQuantidade,
     } from "./styles";
-import water from '/src/assets/water/water1.svg';
+
 import water2 from '/src/assets/water/water2.svg';
 
     
@@ -31,7 +30,7 @@ export function GeneralHealth () {
       Se a tua resposta é a de que consome os dois litros ao dia, ponto para você! Mas, se a resposta é não, é hora de rever esse hábito. E para isso te oferecemos um bom motivo: o resultado na pele. 
       </BodyTextRecomendacao>
 
-      <CenteredImage2 src={water} alt="water" title="water" />
+      
 
       <BodyTextQuantidade>
       <h3>Como saber se a quantidade ingerida é pouca, suficiente ou excessiva?</h3>

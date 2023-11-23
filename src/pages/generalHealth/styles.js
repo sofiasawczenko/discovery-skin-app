@@ -37,14 +37,21 @@ export const ReadingTime = styled.div`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 `
 export const CenteredImage = styled.img`
-    display: block;
-    margin: 0 auto;
-
-    @media only screen and (max-width: 1430px) {
+    @media only screen and (max-width: 600px) {
     width: 20rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
+  }
 
-    }
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    margin-left: 23rem;
+    width: 60rem;
+    line-height: 2;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
 `
 
 export const BodyText = styled.div`
@@ -63,29 +70,23 @@ export const BodyText = styled.div`
 `
 
 export const BodyTextRecomendacao = styled.div`
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
+    margin-left: 3rem;
+    text-align: justify;
     font-size: 17px;
-    margin-top: 0rem;
-    margin: 10rem;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 60rem;
     line-height: 2;
     text-align: justify;
-    margin-bottom: 2rem;
-
-@media only screen and (max-width: 1430px) {
-    width: 20rem;
-    margin-left: 3rem;
+    margin-left: 15rem;
   }
   
-`
-
-export const CenteredImage2 = styled.img`
-    display: block;
-    margin: 0 auto;
-
-    @media only screen and (max-width: 1430px) {
-    width: 20rem;
-    margin-left: 3rem;
-
-    }
 `
 
 export const AlertasText = styled.div`
@@ -102,18 +103,22 @@ export const AlertasText = styled.div`
   }
   
 `
-
 export const BodyTextQuantidade = styled.div`
+  @media only screen and (max-width: 600px) {
+    width: 18rem;
+    margin-left: 3rem;
+    text-align: justify;
     font-size: 17px;
-    margin-top: 1rem;
-    margin: 10rem;
+  }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-right: -0.5rem;
+    margin-left: 15rem;
+    width: 70rem;
     line-height: 2;
     text-align: justify;
     margin-bottom: 2rem;
-
-@media only screen and (max-width: 1430px) {
-    width: 20rem;
-    margin-left: 3rem;
   }
   
 `

@@ -37,26 +37,8 @@ export const ReadingTime = styled.main`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 `
 
-export const baby1 = styled.img`
-    @media only screen and (max-width: 600px) {
-    width: 20rem;
-    margin-left: 10rem;
-  }
-
-@media only screen and (min-width: 600px) {
-    font-size: 17px;
-    margin-top: 1rem;
-    margin-right: -0.5rem;
-    width: 50rem;
-    margin: 10rem;
-    line-height: 2;
-    text-align: justify;
-    margin-bottom: 2rem;
-  }
-`;
-
 export const BodyText = styled.main`
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     width: 18rem;
     margin-left: 3rem;
     text-align: justify;
@@ -67,63 +49,39 @@ export const BodyText = styled.main`
     font-size: 17px;
     margin-top: 1rem;
     margin-right: -0.5rem;
-    width: 60rem;
+    width: 70rem;
     line-height: 2;
     text-align: justify;
-    margin-bottom: 1rem;
-    margin-left:8rem;
-  }
+    margin-left: 20rem;
+  } 
   
 `
 
 export const SintomaTopicos = styled.main`
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     width: 18rem;
+    margin-left: 0rem;
     text-align: justify;
     font-size: 17px;
-    margin-bottom: 25px;
-    margin-top:30px;
   }
 
 @media only screen and (min-width: 600px) {
     font-size: 17px;
     margin-top: 1rem;
     margin-right: -0.5rem;
-    width: 60rem;
+    width: 70rem;
     line-height: 2;
     text-align: justify;
-    margin-bottom: 1rem;
-    margin-left:3rem;
-  }
+    margin-left: 5rem;
+  } 
 `
 
 export const ABCDTopicos = styled.main`
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     width: 15rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     text-align: justify;
     font-size: 17px;
-    margin-bottom: 25px;
-  }
-
-@media only screen and (min-width: 600px) {
-    font-size: 17px;
-    margin-top: 1rem;
-    margin-right: -0.5rem;
-    width: 55rem;
-    line-height: 2;
-    text-align: justify;
-    margin-bottom: 1rem;
-    margin-left:3rem;
-  }
-`
-
-export const ABCDText = styled.main`
-  @media only screen and (max-width: 600px) {
-    width: 18rem;
-    text-align: justify;
-    font-size: 17px;
-    margin-bottom: 25px;
   }
 
 @media only screen and (min-width: 600px) {
@@ -133,8 +91,27 @@ export const ABCDText = styled.main`
     width: 60rem;
     line-height: 2;
     text-align: justify;
-    margin-bottom: 1rem;
+    margin-left: 5rem;
+  } 
+`
+
+export const ABCDText = styled.main`
+@media only screen and (max-width: 600px) {
+    width: 18rem;
+    margin-left: 0rem;
+    text-align: justify;
+    font-size: 17px;
   }
+
+@media only screen and (min-width: 600px) {
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    width: 70rem;
+    line-height: 2;
+    text-align: justify;
+    margin-left: 0rem;
+  } 
 `
 
 export const CenteredImage = styled.img`
@@ -145,24 +122,30 @@ export const CenteredImage = styled.img`
 
 @media only screen and (min-width: 600px) {
     font-size: 17px;
-    margin-left: 14rem;
-    width: 50rem;
+    margin-top: 1rem;
+    margin-right: -0.5rem;
+    margin-left: 23rem;
+    width: 60rem;
+    line-height: 2;
     text-align: justify;
+    margin-bottom: 2rem;
   }
 `
 
 export const CenteredImage2 = styled.img`
     @media only screen and (max-width: 600px) {
-    width: 18rem;
+    width: 20rem;
+    margin-left: -0.5rem;
   }
 
 @media only screen and (min-width: 600px) {
     font-size: 17px;
     margin-top: 1rem;
     margin-right: -0.5rem;
-    width: 50rem;
+    margin-left: 15rem;
+    width: 40rem;
     line-height: 2;
     text-align: justify;
-    margin-left: 4rem;
+    margin-bottom: 2rem;
   }
 `
