@@ -13,7 +13,6 @@ TerapiaTopica,
 TopicoFototerapia,
 TopicoCirurgia,
 TopicoBranqueamento,
-TextGeral,
 TratamentoText,
 } from "./styles";
 import VitiligoImage from '/src/assets/article/vitiligo-image.svg';
@@ -61,19 +60,6 @@ export function VitiligoArticle() {
         <p>O vitiligo afeta até 2% das pessoas.</p>
         </PorcentagemComVitiligo>
 
-        <TextGeral>
-        <p>A causa do vitiligo é desconhecida, mas trata-se de um distúrbio de pigmentação cutânea que pode envolver um ataque do sistema imunológico às células que produzem o pigmento cutâneo melanina (melanócitos). 
-          O vitiligo costuma ser hereditário, ou as pessoas podem desenvolvê-lo espontaneamente. O vitiligo pode ocorrer com certas doenças. Ele está associado a doenças autoimunes (quando o corpo ataca seus próprios tecidos), 
-          sendo a doença da tireoide a mais comum. Ele está mais fortemente associado a uma tireoide hiperativa (hipertireoidismo, particularmente quando causado pela doença de Graves) e hipoativa (hipotireoidismo, particularmente quando causado pela tireoidite de Hashimoto). 
-          Pessoas com diabetes, doença de Addison e anemia perniciosa também têm mais probabilidade de desenvolver vitiligo. 
-          Entretanto, a relação entre essas doenças e o vitiligo é incerta.
-        </p></TextGeral>
-
-        <TextGeral><p>
-        Ocasionalmente, o vitiligo ocorre depois de lesão física na pele, por exemplo, como resposta a uma queimadura por produto químico ou queimadura solar. 
-        As pessoas também podem observar que o vitiligo é desencadeado por um episódio de estresse emocional.
-        </p></TextGeral>
-
         <TratamentoText>
           <h2>Tratamento:</h2>
         </TratamentoText>
@@ -94,7 +80,7 @@ export function VitiligoArticle() {
             <TerapiaTopica><h3>Terapia tópica</h3></TerapiaTopica>
             Por vezes, as manchas pequenas escurecem (repigmentam-se) quando se aplica um tratamento com cremes à base de corticosteroides fortes. Medicamentos, como tacrolimo ou pimecrolimo, podem ser aplicados às manchas no rosto ou na virilha, onde os cremes à base de corticosteroides fortes podem causar efeitos colaterais. Um creme contendo calcipotrieno (também chamado calcipotriol), que é uma forma de vitamina D, e betametasona (um creme de corticosteroide) são mais eficazes em conjunto do que cada um dos cremes usado individualmente. Algumas pessoas utilizam bronzeadores, colorações para a pele ou maquiagem para escurecer a área.
 
-            <TopicoFototerapia><h3>Fototerapia e psoralenos</h3></TopicoFototerapia>
+            <TopicoFototerapia><h3>Fototerapia</h3></TopicoFototerapia>
             Como muitas pessoas ainda têm um pouco de melanócitos nas manchas de vitiligo, a exposição à luz ultravioleta (UV) no consultório médico (fototerapia) reestimula a produção de pigmentos em mais da metade deles (Fototerapia). Em particular, podem ser administrados os psolarenos (medicamentos que deixam a pele mais sensível à luz) combinados com luz UVA (PUVA) ou tratamento de luz UVB de banda estreita sem psoralenos. No entanto, a fototerapia precisa de meses para demonstrar a sua eficácia e pode precisar ser continuada indefinidamente. Também pode dar origem ao câncer de pele. Os médicos também usam laser em algumas pessoas que tenham pequenas manchas que não respondem aos cremes à base de corticosteroide.
 
             <TopicoCirurgia><h3>Cirurgia</h3></TopicoCirurgia>

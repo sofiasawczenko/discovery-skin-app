@@ -131,10 +131,11 @@ export const DefinicaoVitiligo2 = styled.div`
 
 export const TopicosVitiligo = styled.div`
   @media only screen and (max-width: 600px) {
-    width: 15rem;
-    margin-left: 2rem;
+    width: 17rem;
+    margin-left: 1rem;
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
+    margin-bottom: 3rem;
   }
 
   @media only screen and (min-width: 600px) {
@@ -151,9 +152,10 @@ export const TopicosVitiligo = styled.div`
 export const PorcentagemComVitiligo = styled.div`
   @media only screen and (max-width: 600px) {
     width: 15rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
     text-align: justify;
     font-size: 17px;
+    margin-bottom: 3rem;
   }
 
   @media only screen and (min-width: 600px) {
@@ -168,10 +170,12 @@ export const PorcentagemComVitiligo = styled.div`
 
 export const TopicosTratamento = styled.div`
   @media only screen and (max-width: 600px) {
-    width: 15rem;
-    margin-left: 3rem;
+    width: 17rem;
+    margin-left: 1rem;
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
+    margin-bottom: 3rem;
+    line-height: 2rem;
   }
 
   @media only screen and (min-width: 600px) {
@@ -191,6 +195,7 @@ export const TerapiaTopica = styled.div`
     margin-left: 3rem;
     text-align: justify;
     font-size: 17px;
+    margin-top: 3rem;
   }
 
 @media only screen and (min-width: 600px) {
@@ -210,6 +215,7 @@ export const TopicoFototerapia = styled.div`
     margin-left: 3rem;
     text-align: justify;
     font-size: 17px;
+    margin-top: 3rem;
   }
 
 @media only screen and (min-width: 600px) {
@@ -228,6 +234,7 @@ export const TopicoCirurgia = styled.div`
     margin-left: 3rem;
     text-align: justify;
     font-size: 17px;
+    margin-top: 3rem;
   }
 
 @media only screen and (min-width: 600px) {
@@ -247,6 +254,7 @@ export const TopicoBranqueamento = styled.div`
     margin-left: 3rem;
     text-align: justify;
     font-size: 17px;
+    margin-top: 3rem;
   }
 
 @media only screen and (min-width: 600px) {
@@ -260,31 +268,13 @@ export const TopicoBranqueamento = styled.div`
   }
 `
 
-export const TextGeral = styled.div`
-  @media only screen and (max-width: 600px) {
-    width: 17rem;
-    margin-left: 1rem;
-    text-align: justify;
-    font-size: 17px;
-  }
-
-@media only screen and (min-width: 600px) {
-    font-size: 17px;
-    margin-top: 1rem;
-    margin-right: -0.5rem;
-    width: 80rem;
-    line-height: 2;
-    text-align: justify;
-    margin-bottom: 2rem;
-  }
-`
-
 export const TratamentoText = styled.div`
   @media only screen and (max-width: 600px) {
     width: 15rem;
     margin-left: 3rem;
     text-align: justify;
     font-size: 17px;
+    margin-top: 3rem;
   }
 
 @media only screen and (min-width: 600px) {

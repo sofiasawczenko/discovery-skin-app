@@ -38,7 +38,8 @@ export const ReadingTime = styled.div`
 `
 export const CenteredImage = styled.img`
     @media only screen and (max-width: 600px) {
-    width: 10rem;
+    width: 20rem;
+    margin-left:3rem;
   }
 
 @media only screen and (min-width: 600px) {
