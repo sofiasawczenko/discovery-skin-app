@@ -161,7 +161,6 @@ export function VitiligoArticle() {
         </p>
 
         <h3>Branqueamento</h3>
-
         <p>
           Algumas pessoas que têm extensões muito grandes de vitiligo preferem,
           às vezes, descolorir a pigmentação da pele que não foi afetada para
