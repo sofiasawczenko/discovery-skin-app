@@ -37,9 +37,10 @@ export const ReadingTime = styled.div`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 `
 export const CenteredImage = styled.img`
-    @media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 600px) {
     width: 20rem;
-    margin-left:3rem;
+    margin-left: 2rem;
   }
 
 @media only screen and (min-width: 600px) {
