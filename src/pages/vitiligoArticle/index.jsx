@@ -30,10 +30,10 @@ export function VitiligoArticle() {
       NÃO TRANSMISSÍVEIS
     </SubTitle>
 
-
-      <MacroImage>
-        <img src={VitiligoImage} alt="Pessoa com Vitiligo" title="Pessoa com Vitiligo" />
-      </MacroImage></><ReadingTime>
+        <MacroImage src={VitiligoImage} alt="Pessoa com Vitiligo" title="Pessoa com Vitiligo" />
+        
+        
+        </><ReadingTime>
         <p>
           Tempo de Leitura: 6 minutos
         </p>
@@ -75,7 +75,7 @@ export function VitiligoArticle() {
         </p></TextGeral>
 
         <TratamentoText>
-          <h2>Abordagens de Tratamento:</h2>
+          <h2>Tratamento:</h2>
         </TratamentoText>
 
         <TopicosTratamento>

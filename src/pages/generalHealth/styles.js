@@ -12,7 +12,7 @@ export const TitleContainer = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
   }
 `;
 
@@ -38,8 +38,7 @@ export const ReadingTime = styled.div`
 `
 export const CenteredImage = styled.img`
     @media only screen and (max-width: 600px) {
-    width: 20rem;
-    margin-left: 2rem;
+    width: 10rem;
   }
 
 @media only screen and (min-width: 600px) {
