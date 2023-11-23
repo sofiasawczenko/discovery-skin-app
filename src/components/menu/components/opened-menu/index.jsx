@@ -3,7 +3,7 @@ import DiscoverySkinLogoName from "../../../../assets/logo/discovery-skin-name-l
 import { ItemMenu } from "./item-menu";
 import { ArticleContainer, LeftMenu, MenuContainer } from "./styles";
 
-export function OpenedMenu() {
+export function OpenedMenu({ setSidebarOpen }) {
   const menuItens = [
     {
       icon: <House color="#FF7A00" size={32} />,
@@ -13,26 +13,26 @@ export function OpenedMenu() {
     {
       icon: <Phone color="#FF7A00" size={32} />,
       itemName: "Fale conosco",
-      path: "/contactUs",
+      path: "/fale-conosco",
     },
   ];
 
   const articleItens = [
     {
       itemName: "Vitiligo",
-      path: "/vitiligoArticle",
+      path: "/artigo/vitiligo",
     },
     {
       itemName: "Drink para melhora de pele",
-      path: "/generalHealth",
+      path: "/artigo/saude-geral",
     },
     {
       itemName: "Melanoma em crianças",
-      path: "/childMortality",
+      path: "/artigo/mortalidade-infantil",
     },
     {
       itemName: "Fungos na pele",
-      path: "/communicableDiseases",
+      path: "/artigo/combate-doencas-transmissiveis",
     },
   ];
 
@@ -51,6 +51,7 @@ export function OpenedMenu() {
                 icon={item.icon}
                 itemName={item.itemName}
                 path={item.path}
+                setSidebarOpen={setSidebarOpen}
               />
             );
           })}
@@ -68,6 +69,7 @@ export function OpenedMenu() {
                 icon={<Article color="#FF7A00" size={32} />}
                 itemName={item.itemName}
                 path={item.path}
+                setSidebarOpen={setSidebarOpen}
               />
             );
           })}

@@ -14,7 +14,7 @@ export function Menu() {
   return (
     <div>
       <Sidebar
-        sidebar={<OpenedMenu />}
+        sidebar={<OpenedMenu setSidebarOpen={setSidebarOpen}/>}
         open={sidebarOpen}
         onSetOpen={(open) => setSidebarOpen(open)}
         styles={{ sidebar: { background: '#f5f6fa' } }}
