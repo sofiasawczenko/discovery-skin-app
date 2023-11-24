@@ -1,8 +1,13 @@
-# React + Vite
+## Tutorial para iniciar projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Primeiro rode o comando para instalar as depedências do projeto
 
-Currently, two official plugins are available:
+```
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Depois rode o comando para iniciar o projeto e ele vai indicar qual porta ele se aloca em sua máquina, geralmente o endereço para acessar fica em http://localhost:5173
+
+```
+npm run start
+```

@@ -2,6 +2,7 @@ import MainScreen from "../../assets/cellphone/main-screen-cellphone.svg";
 import { AISkin } from "./components/ai-skin";
 import { AppInformation } from "./components/app-information";
 import { Articles } from "./components/articles";
+import { ContactUs } from "./components/contact-us";
 import { DownloadApp } from "./components/download-app";
 import { Video } from "./components/video";
 
@@ -30,6 +31,7 @@ export function Home() {
       <Video />
       <Articles />
       <DownloadApp />
+      <ContactUs/>
     </HomeContainer>
   );
 }

@@ -15,6 +15,12 @@ export const FooterContainer = styled.footer`
 
   img {
     width: 15rem;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
   }
 
   hr {

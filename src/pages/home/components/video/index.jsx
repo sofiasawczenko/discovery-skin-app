@@ -6,7 +6,7 @@ export function Video() {
       <iframe
         width="900"
         height="400"
-        src="https://www.youtube.com/embed/l5Wnys2I1io?si=N0vnwPgKzr0St1N0"
+        src="https://www.youtube.com/embed/VtsISD35EyU?si=2GvyGvQcaaKL4h-C"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen

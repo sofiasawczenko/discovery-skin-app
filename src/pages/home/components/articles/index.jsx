@@ -13,6 +13,7 @@ export function Articles() {
         "Uma Profunda Exploração da Condição de Pele que Desafia a Pigmentação Normal",
       img: CotoveloImage,
       author: "Dra Sarah",
+      articleLink: '/artigo/vitiligo'
     },
     {
       title: "Redução da mortalidade infantil",
@@ -20,6 +21,7 @@ export function Articles() {
         "A Realidade Alarmante - Melanoma em crianças e seus riscos mortais",
       img: ChildImage,
       author: "Dra Sarah",
+      articleLink: '/artigo/mortalidade-infantil'
     },
     {
       title: "Combate a doenças transmissíveis",
@@ -27,12 +29,14 @@ export function Articles() {
         "Além da Superfície: Entenda e previna fungos na pele transmissíveis",
       img: FungiImage,
       author: "Dra Sarah",
+      articleLink: '/artigo/combate-doencas-transmissiveis'
     },
     {
       title: "Melhoria Geral da saúde",
       description: "Como melhorar sua pele somente com um drink",
       img: WaterImage,
       author: "Dra Sarah",
+      articleLink: '/artigo/saude-geral'
     },
   ];
 
@@ -46,6 +50,7 @@ export function Articles() {
             description={article.description}
             author={article.author}
             articleImg={article.img}
+            articleLink={article.articleLink}
           />
         );
       })}

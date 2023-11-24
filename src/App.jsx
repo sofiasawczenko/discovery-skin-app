@@ -1,17 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { DefaultFooter } from "./layout/default-footer";
 import { DefaultMenu } from "./layout/default-menu";
-import { ChildMortality } from "./pages/childMortality";
-import { CommunicableDiseases } from "./pages/communicableDiseases";
-import { ContactUs } from "./pages/contactUs";
-import { GeneralHealth } from "./pages/generalHealth";
+import { ChildMortality } from "./pages/child-mortality";
+import { CommunicableDiseases } from "./pages/communicable-diseases";
+import { GeneralHealth } from "./pages/general-health";
 import { Home } from "./pages/home";
-import { VitiligoArticle } from "./pages/vitiligoArticle";
+import { VitiligoArticle } from "./pages/vitiligo-article";
 
 export function App() {
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <DefaultMenu />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,7 +24,6 @@ export function App() {
             path="/artigo/combate-doencas-transmissiveis"
             element={<CommunicableDiseases />}
           />
-          <Route path="/fale-conosco" element={<ContactUs />} />
         </Routes>
         <DefaultFooter />
       </BrowserRouter>

@@ -1,4 +1,4 @@
-import { Article, House, Phone } from "phosphor-react";
+import { Article, House } from "phosphor-react";
 import DiscoverySkinLogoName from "../../../../assets/logo/discovery-skin-name-logo.svg";
 import { ItemMenu } from "./item-menu";
 import { ArticleContainer, LeftMenu, MenuContainer } from "./styles";
@@ -9,12 +9,7 @@ export function OpenedMenu({ setSidebarOpen }) {
       icon: <House color="#FF7A00" size={32} />,
       itemName: "Home",
       path: "/",
-    },
-    {
-      icon: <Phone color="#FF7A00" size={32} />,
-      itemName: "Fale conosco",
-      path: "/fale-conosco",
-    },
+    }
   ];
 
   const articleItens = [
