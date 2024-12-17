@@ -16,12 +16,9 @@ Skin cancer is one of the most common forms of cancer, and early detection is ke
 - **Early Detection Focus**: Alerts and notifications to encourage users to seek medical advice if any abnormal changes are detected.
 
 ## Technologies Used
+This app is still in its early stages and is currently a landing page.
 
 - **React.js**: JavaScript library used for building the user interface.
-- **Node.js**: Server-side JavaScript runtime environment used to manage the backend and API requests.
-- **Express.js**: Web application framework for Node.js used to handle routing and requests.
-- **MongoDB**: Database used to store images and data securely.
-- **Multer**: Middleware for handling multipart/form-data, used for uploading images.
 - **CSS/SCSS**: For styling the app's user interface.
 
 ## Installation
